@@ -12,7 +12,7 @@ const PhoneNumberSchema = new mongoose.Schema({
 
 const BusSchema = new mongoose.Schema({
   busType: String,
-  busModel: String
+  busModel: [String]
 }, { _id: true });
 
 const OperatorSchema = new mongoose.Schema({
