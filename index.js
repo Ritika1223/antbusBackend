@@ -11,7 +11,7 @@ const operatorRoutes = require('./routes/operators');
 app.use(cookieParser()) 
 app.use(cors({
   credentials:true,
-  origin: 'https://antbus.in'
+  origin: 'http://localhost:5173'
 }));
 app.use(express.json())
 
